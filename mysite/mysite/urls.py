@@ -5,6 +5,5 @@ from polls import views
 
 urlpatterns = [
     path("polls/", include("polls.urls")),
-    path("secret", views.secret),
     path("admin/", admin.site.urls),
 ]
